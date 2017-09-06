@@ -4,7 +4,11 @@
              x:Class="Navigation.App">
 	<Application.Resources>
 
-		<!-- Application resource dictionary -->
+		<!-- Application resource dictionary valable dans tout le pgm-->
+    <ResourceDictionary>
+      <x:String x:Key="Clef">valeur</x:String>
+      
+    </ResourceDictionary>
 
 	</Application.Resources>
 </Application>

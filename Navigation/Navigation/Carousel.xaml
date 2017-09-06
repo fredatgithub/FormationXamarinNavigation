@@ -2,6 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navigation.Carousel">
+  <ContentPage.Resources>
+    !-- Page resource dictionary valable uniquement dans cette page-->
+      <x:String x:Key="Clef2">valeur2</x:String>
+  </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Carousel page" />

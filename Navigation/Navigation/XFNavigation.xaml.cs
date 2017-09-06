@@ -29,5 +29,10 @@ namespace Navigation
     {
       Navigation.PushAsync(new Page3());
     }
+
+    private void BtnPageCarousel_OnClicked(object sender, EventArgs e)
+    {
+      Navigation.PushAsync(new CarouselPage());
+    }
   }
 }

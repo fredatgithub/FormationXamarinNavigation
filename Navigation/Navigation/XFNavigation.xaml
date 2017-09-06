@@ -4,8 +4,9 @@
              x:Class="Navigation.XfNavigation">
   <ContentPage.Content>
     <StackLayout>
-      <Button x:Name="btnToPage2" Text="Navigate to page 2" Clicked="BtnToPage2_OnClicked"></Button>
-      <Button x:Name="btnToPage3" Text="Navigate to page 3" Clicked="BtnToPage3_OnClicked"></Button>
+      <Button x:Name="BtnToPage2" Text="Navigate to page 2" Clicked="BtnToPage2_OnClicked"></Button>
+      <Button x:Name="BtnToPage3" Text="Navigate to page 3" Clicked="BtnToPage3_OnClicked"></Button>
+      <Button x:Name="BtnPageCarousel" Text="Carousel" Clicked="BtnPageCarousel_OnClicked"></Button>
 
     </StackLayout>
   </ContentPage.Content>

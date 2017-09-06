@@ -4,11 +4,10 @@ namespace Navigation
 {
     internal class StartPage:TabbedPage
     {
-        private StartPage()
+        public StartPage()
         {
-            Children.Add(new XFNavigation());
+            Children.Add(new XfNavigation());
             Children.Add(new NavigationCode());
-
         }
     }
 }

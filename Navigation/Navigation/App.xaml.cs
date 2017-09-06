@@ -8,7 +8,7 @@ namespace Navigation
         {
             InitializeComponent();
 
-            MainPage = new Navigation.MainPage();
+            MainPage = new Navigation.StartPage();
         }
 
         protected override void OnStart()

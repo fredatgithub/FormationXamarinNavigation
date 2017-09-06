@@ -4,7 +4,8 @@
              x:Class="Navigation.Page3">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <Label x:Name="LblMemory" Text="Allocation mémoire" />
+          
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

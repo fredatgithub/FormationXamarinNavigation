@@ -4,7 +4,7 @@
              x:Class="Navigation.Page2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <Label Text="you are on Page2" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

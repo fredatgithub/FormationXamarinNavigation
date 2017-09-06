@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navigation.XfNavigation">
-    <ContentPage.Content>
-        <StackLayout>
-            <Button Text="Navigate to page 2" Clicked="Button_OnClicked"></Button>
-          <Button Text="Navigate to page 3"></Button>
-          
-        </StackLayout>
-    </ContentPage.Content>
+  <ContentPage.Content>
+    <StackLayout>
+      <Button x:Name="btnToPage2" Text="Navigate to page 2" Clicked="BtnToPage2_OnClicked"></Button>
+      <Button x:Name="btnToPage3" Text="Navigate to page 3" Clicked="BtnToPage3_OnClicked"></Button>
+
+    </StackLayout>
+  </ContentPage.Content>
 </ContentPage>
